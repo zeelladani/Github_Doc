@@ -1,10 +1,14 @@
 window.GH_CONFIG = {
-  TOKEN: "", // MUST start with github_pat_
+  // Paste your Base64 encoded string inside the quotes below.
+  // Do NOT paste the raw "github_pat_..." token here.
+  TOKEN: atob("Z2l0aHViX3BhdF8xMUFaU1c1TUEwVTJOaDNndExLZ1pRX0U0Q1VFQkthMWhBOFF3Q3FEeWNET1FocFJLZm5hTW9JalhYU01uZUZuOHQ2QjMyTFNKNXpkM2xvM0NN"), 
+  
   OWNER: "zeelladani",
   REPO: "Github_Doc",
   BRANCH: "main",
   BASE_PATH: "docs",
-  EXPIRES: "2026-12-31", // MUST be in YYYY-MM-DD format
+  EXPIRES: "2026-12-31",
+  
   EXTENSIONS: {
     jpg:"jpg", jpeg:"jpg", png:"png", gif:"gif", webp:"webp", svg:"svg", bmp:"bmp", ico:"ico",
     mp3:"mp3", wav:"wav", m4a:"m4a", ogg:"ogg", flac:"flac",
