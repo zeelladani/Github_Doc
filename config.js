@@ -1,5 +1,5 @@
 window.GH_CONFIG = {
-  TOKEN: "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", // MUST start with github_pat_
+  TOKEN: "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", // MUST start with github_pat_
   OWNER: "zeelladani",
   REPO: "Github_Doc",
   BRANCH: "main",
